@@ -9,7 +9,7 @@ if (isset($_GET['id'])) {
   $result = mysqli_query($con, $sql);
 
   if ($result) {
-    header('location: display.php');
+    header('location: index.php');
   } else {
     die(mysqli_error($con));
   }
